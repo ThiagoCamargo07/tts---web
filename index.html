@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link para o Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Link para o ScrollReveal -->
+  <script src="https://unpkg.com/scrollreveal"></script> <!-- Link para o CSS -->
+  <!-- Link para o CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <title>Redes Technology Web | Thiago Camargo</title>
+</head>
+
+<body>
+  <video autoplay loop class="video-background">
+    <source src="./videos/fundo3.mp4" type="video/mp4">
+  </video> <!-- Video de fundo -->
+
+  <button class="btntopo efeito-transform" onclick="backtopo()">
+    <i class='bx bxs-up-arrow-circle'></i>
+    Topo
+  </button> <!-- Botão topo -->
+
+  <header id="header">
+    <nav class="nav-desktop">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contatos">Redes</a></li>
+      </ul>
+    </nav> <!-- Menu desktop -->
+
+    <nav class="nav-mobile" id="nav-mobile">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contatos">Redes</a></li>
+      </ul>
+    </nav> <!-- Menu desktop -->
+
+    <div class="btn-menu-mobile" id="btn-menu-mobile">
+      <div class="line-menu-mobile-1"></div>
+      <div class="line-menu-mobile-2"></div>
+    </div>
+  </header> <!-- Cabecalho -->
+
+  <section class="principal" id="home">
+    <div class="conteudo-principal">
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/thiago-camargo-7757142ab/" class="link-rede-social efeito-transform">
+          <i class='bx bxl-linkedin'></i>
+          Linkedin
+        </a> <!-- Link para o Linkedin -->
+        <a href="https://github.com/ThiagoCamargo07" class="link-rede-social efeito-transform">
+          <i class='bx bxl-github'></i>
+          GitHub
+        </a> <!-- Link para o GitHub -->
+        <a href="mailto:tikotechnology77@gmail.com" class="link-rede-social efeito-transform">
+          <i class='bx bx-envelope'></i>
+          E-mail
+        </a> <!-- Link para o E-mail -->
+      </div> <!-- Redes sociais -->
+
+      <h1>Olá, me chamo <span>Thiago </span>.</h1>
+
+      <p>Sejam bem vindos ao <span> Redes Technology </span>, um portifolio pessoal web, que também mostra um pouco dos serviços da Tiko Technology.</p>
+
+      <a href="#projetos" class="btn-link efeito-transform">Ver serviços e análises</a>
+    </div>
+
+    <div class="img-principal">
+      <img src="./img/img-principal.png" alt="imagem principal">
+    </div> <!-- Imagem principal -->
+
+  </section> <!-- Seção principal -->
+
+  <section class="secao" id="projetos">
+    <h2 class="titulo-secao">Serviços</h2>
+
+    <div class="grade-projetos">
+
+      <div class="card-projeto card-projeto-1">
+        <img class="img-projeto" src="img/analise.PNG" alt="imagem-projeto">
+
+        <div class="info-projeto">
+          <h3>Serviços Tecnológicos</h3>
+          <p>Serviços Tecnológicos como limpeza e otimização de computadores, montagem e manutenção de hardwares.</p>
+          <div class="link-projeto">
+            <a href="https://www.instagram.com/reel/DLGiu1ivt_G/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="efeito-transform">🌐 Entenda</a>
+          </div> <!-- Link projeto -->
+        </div> <!-- Informações projeto -->
+      </div> <!-- Card 1 -->
+
+      <div class="card-projeto card-projeto-2">
+        <img class="img-projeto" src="img/ftinnn.PNG" alt="imagem-projeto">
+
+        <div class="info-projeto">
+          <h3>Desenvolvimento de Sistemas</h3>
+          <p>Softwares desenvolvidos em Python para facilitar seu dia a dia.</p>
+          <div class="link-projeto">
+            <a href="https://wa.me/5511963606838?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20o%20desenvolvimento%20de%20softwares.
+" target="_blank" class="efeito-transform">🌐 Entenda</a>
+          </div> <!-- Link projeto -->
+        </div> <!-- Informações projeto -->
+      </div> <!-- Card 2 -->
+
+      <div class="card-projeto card-projeto-3">
+        <img class="img-projeto" src="img/galaxy.PNG" alt="imagem-projeto">
+
+        <div class="info-projeto">
+          <h3>Análises Astronômicas</h3>
+          <p>Análises feitas através de dados astronômicos.</p>
+          <div class="link-projeto">
+            <a href="https://stellarium-web.org" target="_blank" class="efeito-transform">🌐 Entenda </a>
+          </div> <!-- Link projeto -->
+        </div> <!-- Informações projeto -->
+      </div> <!-- Card 3 -->
+
+    </div> <!-- Container projetos -->
+  </section> <!-- Seção projetos -->
+
+  <section class="secao" id="sobre">
+    <h2 class="titulo-secao">Um pouco sobre mim</h2>
+
+    <div class="sobre">
+      <img class="img-sobre" src="./img/Program.PNG" alt="foto ailton">
+
+      <div class="conteudo-sobre">
+        <h2>Técnico de Informática e Análista de Dados.</h2>
+        <p>
+          Com 21 anos de idade atuo no mercado de trabalho como Técnico de Informática, porém desejo me especializar em Análise de Dados com Python e IA. Ultimamente cursando Ciências da Computação em busca de evolução constantemente.
+        </p>
+        <p>
+           Apaixonado por computadores e tecnologia, sempre fazendo automações RPA e análises com Python. No tempo livre, desenvolvendo Softwares.
+        </p>
+
+        <div class="habilidades">
+          <span class="tag-habilidades efeito-transform">Python</span>
+          <span class="tag-habilidades efeito-transform">IA</span>
+          <span class="tag-habilidades efeito-transform">Data Analysis</span>
+          <span class="tag-habilidades efeito-transform">Automação RPA</span>
+          <span class="tag-habilidades efeito-transform">Softwares</span>
+          <span class="tag-habilidades efeito-transform">Astronomia Computacional</span>
+        </div>
+      </div>
+    </div>
+
+  </section> <!-- Seção sobre -->
+
+  <section class="secao" id="contatos">
+    <h2 class="titulo-secao">Redes profissionais</h2>
+
+    <div class="botoes-contatos">
+
+      <a href="https://www.linkedin.com/in/thiago-camargo-7757142ab/" class="botao-contato linkedin efeito-transform"
+        target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
+          viewBox="0 0 16 16">
+          <path
+            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+        </svg>
+        <span>LinkedIn</span>
+      </a> <!-- Botao LinkedIn -->
+
+
+      <a href="https://github.com/ThiagoCamargo07" class="botao-contato github efeito-transform" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"
+          viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+        </svg>
+        <span>GitHub</span>
+      </a> <!-- Botao GitHub -->
+
+      
+
+      <a href="mailto:tikotechnology77@gmail.com" class="botao-contato email efeito-transform" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill"
+          viewBox="0 0 16 16">
+          <path
+            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+        </svg>
+        <span>Email</span>
+      </a> <!-- Botao Email -->
+
+    </div> <!-- Botões de contatos -->
+  </section> <!-- Seção contatos -->
+
+  <footer>
+    <p>Desenvolvido por Thiago Camargo &copy; 2025</p>
+  </footer> <!-- Rodapé -->
+
+</body> <!-- Corpo da página -->
+
+<script src="./script.js"></script> <!-- Link para o arquivo JavaScript -->
+
+</html>
