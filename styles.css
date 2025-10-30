@@ -274,7 +274,7 @@ img {
 }
 
 .img-principal img {
-  width: 250px; 
+  width: 300px; 
   mask-image: linear-gradient(to bottom, #000000 25%, rgba(0, 0, 0, 0.01) 95%);
 }
 
@@ -522,4 +522,5 @@ footer {
     display: block;
   }
 }
+
 
